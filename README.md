@@ -15,33 +15,36 @@ Python (pandas, scikit-learn, matplotlib, seaborn)
 Jupyter Notebook
 
 ## Dataset
-Contains a collection of Spotify tracks with audio features
-Features include track-level data such as danceability, energy, acousticness, valence, and more
+Contains a collection of Spotify tracks with audio features. Features include track-level data such as danceability, energy, acousticness, valence, and more
+
 Data used is from Kaggle:
 https://www.kaggle.com/datasets/priyamchoksi/spotify-dataset-114k-songs
 
 ## Features
 The dataset includes features such as:
--explicit – whether the track contains explicit content
--danceability – describes how suitable a track is for dancing
--energy – intensity and activity of the track
--loudness – overall volume in decibels
--speechiness – presence of spoken words
--acousticness – confidence measure of whether the track is acoustic
--instrumentalness – likelihood the track is instrumental or vocal
--valence – musical positiveness conveyed
+- explicit: whether the track contains explicit content
+- danceability: describes how suitable a track is for dancing
+- energy: intensity and activity of the track
+- loudness: overall volume in decibels
+- speechiness: presence of spoken words
+- acousticness: confidence measure of whether the track is acoustic
+- instrumentalness: likelihood the track is instrumental or vocal
+- valence: musical positiveness conveyed
 
 ## Clusters
-Cluster 0 – Confident, bold, high-impact tracks with strong vocals and electronic backing: Fantasy / Action / Adventure
-Cluster 1 – Intimate, acoustic, vocal-driven tracks with emotional tone: Romance / Drama
-Cluster 2 – Upbeat, energetic, electronic-forward tracks: Science Fiction / Adventure
-Cluster 3 – Quiet, instrumental, dark or suspenseful tracks: Thriller / Mystery / Horror
-Cluster 4 – Dynamic, lively, instrumental electronic tracks: Historical Fiction
+- Cluster 0: Confident, bold, high-impact tracks with strong vocals and electronic backing: Fantasy / Action / Adventure
+- Cluster 1: Intimate, acoustic, vocal-driven tracks with emotional tone: Romance / Drama
+- Cluster 2: Upbeat, energetic, electronic-forward tracks: Science Fiction / Adventure
+- Cluster 3: Quiet, instrumental, dark or suspenseful tracks: Thriller / Mystery / Horror
+- Cluster 4: Dynamic, lively, instrumental electronic tracks: Historical Fiction
 
 ## Key Findings
 Different clusters clearly represent distinct moods and audio structures, enabling targeted playlist creation.
+
 KMeans clustering effectively grouped songs with similar profiles based on feature values.
+
 Cluster analysis allows mapping music to book genres, demonstrating an applied use-case for audio feature interpretation.
+
 Playlists generated from these clusters can enhance readers’ immersive experience by matching to the emotional tone of their book.
 
 ## Notebook
